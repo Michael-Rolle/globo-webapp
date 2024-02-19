@@ -5,7 +5,6 @@ on: push
 env:
   TF_LOG: INFO
   TF_INPUT: false
-  TFE_TOKEN: ${{secrets.TFE_TOKEN}}
 
 jobs:
   terraform:
